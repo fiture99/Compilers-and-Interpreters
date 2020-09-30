@@ -1,0 +1,13 @@
+// the factorial function
+int x;
+int y;
+
+int f(int n) {
+	if (!(n > 0))
+    	return 1; 
+  	else
+    	return n * n * f(n-1);
+}
+	
+for(y = 0; y < 10; y = y + 1)
+	print(x = y = f(2));
